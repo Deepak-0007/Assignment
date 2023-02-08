@@ -11,7 +11,7 @@ public class doublevar {
 		num1=sc.nextDouble();
 		System.out.println("enter the second number");
 		num2=sc.nextDouble();
-		if (num1>0 && num1<1 || num2<0 && num2>0) {
+		if (num1>0 && num1<1 || num2<0 && num2>1) {
 			System.out.println("True");
 		}
 		else { 
